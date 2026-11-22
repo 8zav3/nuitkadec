@@ -68,9 +68,17 @@ python decompile.py path/to/target.exe -o out_dir
 - `.pyc` → `.py` decompilation (`src/pyc_decompiler.py`) inspired by [**PyLingual**](https://github.com/syssec-utd/pylingual) (`syssec-utd/pylingual`), modified and optimized into a fast, multi-threaded deterministic bytecode-to-source lifter (zero ML model downloads, Python 3.8–3.14 support).
 - Modular CLI pipeline (`src/`) built for universal one-command `.pyc` and `.py` extraction.
 
+## Support & Contributing
+
+Need help with a Nuitka binary, found a bug, or want to contribute?
+
+- **Open an Issue**: [github.com/8zav3/nuitkadec/issues](https://github.com/8zav3/nuitkadec/issues)
+- **Open a Pull Request**: [github.com/8zav3/nuitkadec/pulls](https://github.com/8zav3/nuitkadec/pulls)
+- **Contact**: [![GitHub](https://img.shields.io/badge/GitHub-8zav3-181717?style=flat&logo=github&logoColor=white)](https://github.com/8zav3) [![Discord](https://img.shields.io/badge/Discord-Contact-5865F2?style=flat&logo=discord&logoColor=white)](https://discord.com/users/1516402914267234382)
+
 > **Authorized use only.** Use this tool only on software you own or are authorized to inspect.
 
 <div align="center">
   <p><strong>nuitkadec</strong> · Universal static Nuitka decompiler &amp; .pyc extractor</p>
-  <p><a href="doc/versions.md">Supported Versions</a> · <a href="doc/example.md">Example Output</a></p>
+  <p><a href="doc/versions.md">Supported Versions</a> · <a href="doc/example.md">Example Output</a> · <a href="https://github.com/8zav3">GitHub</a> · <a href="https://discord.com/users/1516402914267234382">Discord</a></p>
 </div>
